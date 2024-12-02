@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Усі елементи форми</title>
+</head>
+<body>
+    <h2>Форма з усіма елементами</h2>
+    <form action="MusiykoLab07-1_result.html" target="_blank">
+        <pre>Ім'я: <input name="name" type="text" maxlength="40" size="40"></pre>
+        <pre>Пароль: <input type="password" name="password" size="20" maxlength="20"></pre>
+        <pre>Ваша стать:
+            <input type="radio" name="gender" value="male"> Чоловіча
+            <input type="radio" name="gender" value="female"> Жіноча
+        </pre>
+        <pre>Інтереси:
+            <input type="checkbox" name="interest" value="html" checked> HTML
+            <input type="checkbox" name="interest" value="css"> CSS
+            <input type="checkbox" name="interest" value="javascript"> JavaScript
+        </pre>
+        <pre>Курс:
+            <select name="course">
+                <option value="1" selected>Перший</option>
+                <option value="2">Другий</option>
+                <option value="3">Третій</option>
+                <option value="4">Четвертий</option>
+            </select>
+        </pre>
+        <pre>Про себе:</pre>
+        <textarea name="info" rows="4" cols="40"></textarea>
+        <p>
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Очистити">
+        </p>
+    </form>
+</body>
+</html>

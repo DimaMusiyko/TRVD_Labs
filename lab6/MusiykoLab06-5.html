@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Сенсорне зображення</title>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 100%; 
+            left: 50%;
+            margin-left: -100px;
+        }
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <h1>Сенсорна карта</h1>
+    <img src="image/image6.jpg" alt="Картирування зображення" usemap="#image-map">
+    <map name="image-map">
+        <area shape="circle" coords="90,90,80" href="#" alt="Посилання" title="Коло">
+        <area shape="rect" coords="90,170,330,250" href="M#" alt="Моя Батьківщина" title="Прямокутник">
+        <area shape="poly" coords="340,260,440,260,390,150" href="#" alt="Про мене" title="Трикутник">
+    </map>
+</body>
+</html>

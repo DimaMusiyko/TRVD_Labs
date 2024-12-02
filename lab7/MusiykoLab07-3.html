@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+        .form-container {
+            width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #99ccff;
+            background-color: #e0f7fa;
+        }
+        .form-container h1 {
+            text-align: center;
+            color: red;
+            font-size: 24px;
+        }
+        .form-container table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+        .form-container td {
+            vertical-align: top;
+        }
+        .form-container input[type="text"], 
+        .form-container textarea {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #99ccff;
+        }
+        .form-container textarea {
+            resize: none;
+        }
+        .form-container input[type="submit"], 
+        .form-container input[type="reset"] {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            background-color: #007acc;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .form-container input[type="reset"] {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Анкета</h1>
+        <form action="MusiykoLab07-1_result.html" target="_blank">
+            <table>
+                <tr>
+                    <td>1. Прізвище:</td>
+                    <td><input type="text" name="surname"></td>
+                </tr>
+                <tr>
+                    <td>2. Ім'я, по батькові:</td>
+                    <td><input type="text" name="fullname"></td>
+                </tr>
+                <tr>
+                    <td>3. Число і рік народження:</td>
+                    <td><input type="text" name="birthdate"></td>
+                </tr>
+                <tr>
+                    <td>4. Домашня адреса:</td>
+                    <td><input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <td>5. Місце навчання (роботи):</td>
+                    <td><input type="text" name="place"></td>
+                </tr>
+                <tr>
+                    <td>6. Домашній (робочий) телефон:</td>
+                    <td><input type="text" name="phone"></td>
+                </tr>
+                <tr>
+                    <td>7. E-mail:</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>8. Область наукових інтересів:</td>
+                    <td>
+                        <textarea name="interests" rows="6"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div style="text-align: center;">
+                <input type="reset" value="Відмінити введення">
+                <input type="submit" value="Надіслати дані та перейти до 2 етапу реєстрації">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Україна — моя Батьківщина</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #000080;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #4682b4;
+        }
+        .photo-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .photo {
+            position: relative;
+            width: 300px;
+        }
+        .photo img {
+            width: 100%;
+            border: 2px solid #4682b4;
+            border-radius: 5px;
+        }
+        .photo .tooltip {
+            visibility: hidden;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.75);
+            color: #ffffff;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .photo:hover .tooltip {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <h1>Україна — моя Батьківщина</h1>
+    <p>Україна — це країна з багатою культурою, історією та красивими природними та архітектурними пам'ятками. Нижче ви знайдете кілька фото найвідоміших місць України. Наведіть курсор на зображення, щоб дізнатися більше.</p>
+    
+    <div class="photo-gallery">
+        
+        <div class="photo">
+            <img src="image/image1.jpg" alt="Києво-Печерська Лавра">
+            <div class="tooltip">Києво-Печерська Лавра — одна з найважливіших православних святинь України, розташована у Києві.</div>
+        </div>
+
+       
+        <div class="photo">
+            <img src="image/image2.jpg" alt="Озеро Синевир">
+            <div class="tooltip">Озеро Синевир — мальовниче озеро в Карпатах, що є одним із семи природних чудес України.</div>
+        </div>
+
+       
+        <div class="photo">
+            <img src="image/image3.jpg" alt="Софійський собор">
+            <div class="tooltip">Софійський собор у Києві — пам'ятка архітектури та один із об’єктів світової спадщини ЮНЕСКО.</div>
+        </div>
+
+       
+        <div class="photo">
+            <img src="image/image4.jpg" alt="Хотинська фортеця">
+            <div class="tooltip">Хотинська фортеця — історична фортеця на Дністрі, відома своїм внеском в оборону України.</div>
+        </div>
+
+       
+        <div class="photo">
+            <img src="image/image5.jpg" alt="Лавандове поле в Криму">
+            <div class="tooltip">Кругла площа в Полтаві — символічне місце з унікальним архітектурним ансамблем, що є серцем міста.</div>
+        </div>
+    </div>
+
+    <p>Додаткові посилання:</p>
+    <ul>
+        <li><a href="MusiykoLab01-9.html">Домашня сторінка</a></li>
+        <li><a href="MusiykoLab05-3.html">Мої гіперпосилання</a></li>
+    </ul>
+</body>
+</html>

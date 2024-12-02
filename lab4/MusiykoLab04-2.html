@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Приклад горизонтальних рядків, що біжать">
+    <meta name="keywords" content="HTML, marquee, рядок, що біжить, текст">
+    <title>Горизонтальні рядки, що біжать</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: "Arial", sans-serif;
+            text-align: center;
+        }
+        .marquee-container {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="marquee-container" style="background-color: #99ff99; height: 50px;">
+        <marquee behavior="alternate" scrollamount="5">Текст коливається з боку в бік</marquee>
+    </div>
+
+    <div class="marquee-container" style="background-color: #ffcccb; height: 50px;">
+        <marquee direction="left" scrollamount="10">Текст пробігає справа наліво та з'являється знову</marquee>
+    </div>
+
+    <div class="marquee-container" style="background-color: #add8e6; height: 50px;">
+        <marquee direction="right" behavior="slide" scrollamount="7">Текст пробігає зліва направо та зупиняється</marquee>
+    </div>
+
+    <div class="marquee-container" style="background-color: #ffd700; height: 50px;">
+        <marquee direction="left" scrollamount="15" scrolldelay="100">Швидкий текст із запізненням</marquee>
+    </div>
+
+    <div class="marquee-container" style="background-color: #dda0dd; height: 50px;">
+        <marquee direction="right" scrollamount="8" scrolldelay="200">Повільний текст із запізненням</marquee>
+    </div>
+
+</body>
+</html>
